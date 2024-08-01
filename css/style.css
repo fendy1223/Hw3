@@ -256,7 +256,7 @@ a {
 }
 
 .glasses-card {
-    width: 333.3333%;
+    width: 33.3333%;
     padding: 0 12px;
 }
 
@@ -327,7 +327,6 @@ a {
 
 .contect-us-text input {
     padding: 6px 12px;
-    background: #FBF2F2;
     line-height: 1.5;
 }
 
@@ -343,6 +342,7 @@ a {
     color: #FFFFFF;
     font-weight: bold;
     cursor: pointer;
+    border: none;
 }
 
 .submit:hover {
@@ -399,6 +399,11 @@ a {
 .footer-contect {
     font-size: 36px;
     color: white;
+}
+
+.footer-contect:hover {
+    font-size: 36px;
+    color: #ced4da;
 }
 
 .footer-link-link a {
@@ -598,6 +603,10 @@ a {
         padding: 0;
     }
 
+    .home-header {
+        background-image: url("../image/home-header-sm.png");
+    }
+
     .home-text h1 {
         font-size: 60px;
     }
@@ -649,6 +658,10 @@ a {
 @media(max-width:576px) {
     .customer-card {
         width: 100%;
+    }
+
+    .home-header {
+        height: 396px;
     }
 
     .home-text p {
